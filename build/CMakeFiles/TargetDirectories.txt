@@ -1,4 +1,0 @@
-/home/cc/CPP_Project/CPP/build/CMakeFiles/rebuild_cache.dir
-/home/cc/CPP_Project/CPP/build/CMakeFiles/edit_cache.dir
-/home/cc/CPP_Project/CPP/build/CMakeFiles/lab01_2.dir
-/home/cc/CPP_Project/CPP/build/CMakeFiles/lab01_1.dir
