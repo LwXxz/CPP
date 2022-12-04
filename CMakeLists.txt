@@ -21,3 +21,5 @@ add_executable(lab03_2 ./src/Lab03/lab2_main.cpp ./src/Lab03/lab2_fac.cpp)
 # Lab04
 include_directories(./include/Lab04)
 add_executable(lab04_1 ./src/Lab04/lab1_main.cpp ./src/Lab04/lab1_stu.cpp)
+add_executable(lab04_2 ./src/Lab04/lab2_main.cpp ./src/Lab04/lab2_DayInfo.cpp)
+
