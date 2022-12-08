@@ -23,3 +23,12 @@ include_directories(./include/Lab04)
 add_executable(lab04_1 ./src/Lab04/lab1_main.cpp ./src/Lab04/lab1_stu.cpp)
 add_executable(lab04_2 ./src/Lab04/lab2_main.cpp ./src/Lab04/lab2_DayInfo.cpp)
 
+# Lab05
+add_executable(lab05_1 ./src/Lab05/lab1.cpp)
+add_executable(lab05_2 ./src/Lab05/lab2.cpp)
+
+# Lab06
+include_directories(./include/Lab06)
+add_executable(lab06_1 ./src/Lab06/lab1_main.cpp ./src/Lab06/lab1_swap.cpp)
+add_executable(lab06_2 ./src/Lab06/lab2_main.cpp ./src/Lab06/lab2_match.cpp)
+add_executable(lab06_3 ./src/Lab06/lab3_main.cpp)
