@@ -38,3 +38,7 @@ include_directories(./include/Lab07)
 add_executable(lab07_1 ./src/Lab07/lab1_main.cpp ./src/Lab07/lab1_displaySquare.cpp)
 add_executable(lab07_2 ./src/Lab07/lab2_main.cpp)
 add_executable(lab07_3 ./src/Lab07/lab3_main.cpp)
+
+# Lab08
+include_directories(./include/Lab08)
+add_executable(lab08 ./src/Lab08/lab_main.cpp ./src/Lab08/lab_class.cpp)
