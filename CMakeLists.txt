@@ -32,3 +32,9 @@ include_directories(./include/Lab06)
 add_executable(lab06_1 ./src/Lab06/lab1_main.cpp ./src/Lab06/lab1_swap.cpp)
 add_executable(lab06_2 ./src/Lab06/lab2_main.cpp ./src/Lab06/lab2_match.cpp)
 add_executable(lab06_3 ./src/Lab06/lab3_main.cpp)
+
+# Lab07
+include_directories(./include/Lab07)
+add_executable(lab07_1 ./src/Lab07/lab1_main.cpp ./src/Lab07/lab1_displaySquare.cpp)
+add_executable(lab07_2 ./src/Lab07/lab2_main.cpp)
+add_executable(lab07_3 ./src/Lab07/lab3_main.cpp)
