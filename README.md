@@ -6,5 +6,5 @@ mkdir build && cd build
 cmake ..
 make
 ```
-## refence
+## reference
 > https://github.com/ShiqiYu/CPP
