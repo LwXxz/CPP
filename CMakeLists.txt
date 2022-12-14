@@ -46,3 +46,6 @@ add_executable(lab08 ./src/Lab08/lab_main.cpp ./src/Lab08/lab_class.cpp)
 #Lab10
 include_directories(./include/Lab10)
 add_executable(lab10 ./src/Lab10/lab1_main.cpp ./src/Lab10/lab1_complex.cpp)
+
+# Lab11
+add_executable(lab11 ./src/Lab11/main.cpp)
