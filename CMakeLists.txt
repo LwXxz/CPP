@@ -49,3 +49,15 @@ add_executable(lab10 ./src/Lab10/lab1_main.cpp ./src/Lab10/lab1_complex.cpp)
 
 # Lab11
 add_executable(lab11 ./src/Lab11/main.cpp)
+
+# Lab12
+include_directories(./include/Lab12)
+add_executable(lab12 ./src/Lab12/lab_main.cpp ./src/Lab12/stereo_graphic.cpp)
+
+# Lab13
+include_directories(./include/Lab13)
+add_executable(lab13 ./src/Lab13/lab1_main.cpp ./src/Lab13/matrix.cpp)
+
+# Lab14
+add_executable(lab14_1 ./src/Lab14/lab1_main.cpp)
+add_executable(lab14_2 ./src/Lab14/lab2_main.cpp)

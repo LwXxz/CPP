@@ -75,32 +75,31 @@ public:
         return res;
     }
 
-    Matrix operator*(Matrix& other){
-        if (this->cols != other.rows){
-            cout << "Add error: these two matrixs have different shape" << endl;
-            exit(EXIT_FAILURE);
-        }
-        Matrix res(this->rows, other.cols, 0);
-        for (int i = 0; i < this->rows; i++)
-        {
-            for (int j = 0; i < this->cols; j++)
-            {
-                
-                          
-            }
-            
-        }
-        
-    }
-
-    // Matrix operator*(int n){
-    //     Matrix res(this->rows, this->cols, 0);
-    //     for (int i = 0; i < res.rows * res.cols; i++)
-    //     {
-    //         res.data[i] = n * this->data[i];
+    // Matrix operator*(Matrix& other){
+    //     if (this->cols != other.rows){
+    //         cout << "Add error: these two matrixs have different shape" << endl;
+    //         exit(EXIT_FAILURE);
     //     }
-    //     return res;
+    //     Matrix res(this->rows, other.cols, 0);
+    //     for (int i = 0; i < this->rows; i++)
+    //     {
+    //         for (int j = 0; i < this->cols; j++)
+    //         {
+                    // TODO
+    //         }
+            
+    //     }
+        
     // }
+
+    Matrix operator*(int n){
+        Matrix res(this->rows, this->cols, 0);
+        for (int i = 0; i < res.rows * res.cols; i++)
+        {
+            res.data[i] = n * this->data[i];
+        }
+        return res;
+    }
 
     void print(){
         for (int i = 0; i < this->rows; i++)
