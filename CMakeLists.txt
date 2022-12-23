@@ -1,5 +1,7 @@
 cmake_minimum_required( VERSION 3.10)
 
+set(CMAKE_CXX_STANDARD 11)
+
 project(lab&project)
 
 # Lab01
@@ -64,6 +66,7 @@ add_executable(lab14_2 ./src/Lab14/lab2_main.cpp)
 
 # project
 find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${OpenCV_INCLUDE_DIRS}) 
 include_directories(./include/deepNN)
 add_executable(CNN ./src/deepNN/main.cpp)
+target_link_libraries(CNN ${OpenCV_LIBS})
