@@ -65,8 +65,10 @@ add_executable(lab14_1 ./src/Lab14/lab1_main.cpp)
 add_executable(lab14_2 ./src/Lab14/lab2_main.cpp)
 
 # project
-find_package(OpenCV REQUIRED)
-include_directories(${OpenCV_INCLUDE_DIRS}) 
-include_directories(./include/deepNN)
-add_executable(CNN ./src/deepNN/main.cpp)
-target_link_libraries(CNN ${OpenCV_LIBS})
+add_executable(matrix ./src/matrix/matrix.cpp)
+
+# find_package(OpenCV REQUIRED)
+# include_directories(${OpenCV_INCLUDE_DIRS}) 
+# include_directories(./include/deepNN)
+# add_executable(CNN ./src/deepNN/main.cpp)
+# target_link_libraries(CNN ${OpenCV_LIBS})
