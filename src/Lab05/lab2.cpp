@@ -1,4 +1,6 @@
 #include <iostream>
+#include <string>
+#include <cstring>
 using std::cout;
 using std::endl;
 
@@ -16,9 +18,22 @@ bool isPrime(int num)
     return true;
 }
 
+std::string printString(char* charArray){
+    std::string res;
+    for (auto i = 0;  i < 3; i++){
+        res += (charArray[i]);
+    }
+    return res;
+}
+
 int main()
 {
     int a = 23;
     cout << isPrime(a) << endl;
+
+    char* input = new char[3] {'a', 'b', 'c'};
+    std::string output = printString(input);
+    delete [] input;
+    cout << output << endl;
     return 0;
 }

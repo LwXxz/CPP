@@ -213,7 +213,7 @@ int main(int argc, char const *argv[]) {
     end = clock();
     cout << "Read file time: " << (end - start) / (double)1000 << "s" << endl;
 
-    print_matrix(add(m1, m2)); 
+    // print_matrix(add(m1, m2)); 
 
     start = clock();
 
